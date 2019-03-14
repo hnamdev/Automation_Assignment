@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [ParallelExecutionCheck]" parallel="tests">
+  <test name="FireFox(failed)" parallel="tests">
+    <parameter name="browser" value="Firefox"/>
+    <classes>
+      <class name="com.CRM.QA.Test.ParalleleBrowserTest">
+        <methods>
+          <include name="login_TestCase"/>
+          <include name="search_TestCase"/>
+          <include name="openBrowser"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- com.CRM.QA.Test.ParalleleBrowserTest -->
+    </classes>
+  </test> <!-- FireFox(failed) -->
+</suite> <!-- Failed suite [ParallelExecutionCheck] -->

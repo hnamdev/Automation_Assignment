@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [FreeCRMTestAutomationSuit]">
+  <test name="FreeCRMTestCases(failed)">
+    <classes>
+      <class name="com.CRM.QA.Test.HomePageTest">
+        <methods>
+          <include name="VerifyHomePageTest"/>
+          <include name="TearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.CRM.QA.Test.HomePageTest -->
+    </classes>
+  </test> <!-- FreeCRMTestCases(failed) -->
+</suite> <!-- Failed suite [FreeCRMTestAutomationSuit] -->

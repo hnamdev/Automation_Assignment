@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [com.CRM.QA.Test.LoginPageTest]">
+  <test name="Command line test(failed)">
+    <classes>
+      <class name="com.CRM.QA.Test.LoginPageTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="LoginFunctionality"/>
+          <include name="LoginpageTitleTest"/>
+          <include name="logoTest"/>
+        </methods>
+      </class> <!-- com.CRM.QA.Test.LoginPageTest -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [com.CRM.QA.Test.LoginPageTest] -->

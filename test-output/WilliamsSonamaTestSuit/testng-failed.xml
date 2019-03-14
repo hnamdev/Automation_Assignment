@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [WilliamsSonamaTestSuit]">
+  <test name="SelectItemAndAddToCart(failed)">
+    <classes>
+      <class name="testClasses.OnLineShoping">
+        <methods>
+          <include name="addItemInCart"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- testClasses.OnLineShoping -->
+    </classes>
+  </test> <!-- SelectItemAndAddToCart(failed) -->
+</suite> <!-- Failed suite [WilliamsSonamaTestSuit] -->

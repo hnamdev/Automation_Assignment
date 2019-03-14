@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="WilliamsSonamaTestSuit">
+  <test name="SelectItemAndAddToCart">
+  <classes>
+      <class name="testClasses.OnLineShoping"/>
+        </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

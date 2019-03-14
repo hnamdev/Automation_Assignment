@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="FreeCRMTestAutomationSuit" parallel="classes" thread-count="3" >
+  <test name="FreeCRMTestCases" preserve-order="true">
+  <classes>
+      <class name="com.CRM.QA.Test.ConceptCheck"/>
+      <class name="com.CRM.QA.Test.ConceptCheck2"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
